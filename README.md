@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# 🛠️ Satyog Trading
 
-First, run the development server:
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2563EB&center=true&vCenter=true&width=640&lines=Your+trusted+partner+for+quality+tools+%26+hardware.;A+modern+storefront+for+an+industrial+tools+distributor.;Built+with+Next.js+%2B+TypeScript+%2B+Tailwind." alt="Typing SVG" />
+
+<p>
+  <img src="https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/Radix_UI-161618?logo=radixui&logoColor=white" />
+</p>
+
+<em>A modern marketing & catalog website for Satyog Trading — a distributor of industrial tools and hardware solutions.</em>
+
+</div>
+
+---
+
+![Satyog Trading](public/hero-image.jpg)
+
+## ✨ Overview
+
+Satyog Trading is *"your trusted partner for quality tools and hardware solutions."* This repository
+is the company's customer-facing website — a fast, responsive Next.js storefront that showcases the
+product range, the brands carried, and how to get in touch.
+
+## 🧰 Product categories
+
+| | Category |
+|---|---|
+| 🔪 | Cutting tools |
+| 🔩 | Fasteners |
+| 🔧 | Hand tools |
+| 🛢️ | Lubrication equipment |
+
+**Brands carried:** Ajay · Ebro · MSI · Summit · Taparia · Totem
+
+## 🚀 Getting started
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# install dependencies (project uses Bun, but npm works too)
+bun install        # or: npm install
+
+# run the dev server
+bun dev            # or: npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open <http://localhost:3000> in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# production build
+npm run build && npm start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🏗️ Built with
 
-## Learn More
+- **Next.js (App Router)** with Turbopack
+- **TypeScript** end to end
+- **Tailwind CSS** for styling
+- **Radix UI** primitives + **Headless UI** for accessible components
+- **React Hook Form** for forms
+- **libSQL** client for data
 
-To learn more about Next.js, take a look at the following resources:
+## 📁 Project structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+src/
+  app/           routes & pages (App Router)
+  components/    reusable UI components
+  hooks/         custom React hooks
+  lib/           utilities & clients
+public/          images, brand logos, category art
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Tech Stack
 
-## Deploy on Vercel
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white)
+![Radix UI](https://img.shields.io/badge/Radix_UI-161618?logo=radixui&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<div align="center">
+<sub>Built by <a href="https://github.com/hirakparekh">@hirakparekh</a></sub>
+</div>
